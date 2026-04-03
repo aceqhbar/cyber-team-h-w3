@@ -107,7 +107,7 @@ sudo nmap -sV -o scanme.nmap.org
 
 ---
 
-## Task 5- Скрипт для nmap JSON
+## Task 8 - Скрипт для nmap JSON
 
 
 ./scan.sh -p 22,80,443 -sV -O scanme.nmap.org
