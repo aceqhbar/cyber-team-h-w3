@@ -107,3 +107,31 @@ sudo nmap -sV -o scanme.nmap.org
 
 ---
 
+## Task 5- Скрипт для nmap JSON
+
+
+./scan.sh -p 22,80,443 -sV -O scanme.nmap.org
+
+Скрипт принимает параметры nmap, выполняет сканирование и сохраняет результат в файл result.json.
+
+---
+
+
+![script](images/script.png)
+
+Код bash-скрипта scan.sh, созданного для автоматизации сканирования.
+
+---
+
+
+![run](images/activescript.png)
+
+Выполнение скрипта с параметрами nmap и успешное выполнение сканирования.
+
+---
+
+Результат JSON:
+
+![json](images/json.png)
+
+Содержимое файла result.json после выполнения скрипта.
